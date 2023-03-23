@@ -1,0 +1,52 @@
+
+body{
+    background-color: #7FB7BE;
+}
+.container {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+
+}
+
+.calc1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7FB7BE;
+    width: 50vw;
+    margin: 10px auto;
+    border-radius: 2ch;
+}
+
+form {
+    margin: 20px auto;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+form .bot {
+    width: 118px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(75, 75, 75);
+}
+
+form .box {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+}
+#titC{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}

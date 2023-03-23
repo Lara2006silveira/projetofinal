@@ -1,0 +1,124 @@
+body {
+    background-color: #7FB7BE;
+}
+#tit{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;  
+
+}
+#eu {
+    background-color:#7FB7BE;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 3ch;
+    border-color: white;
+    height: 10cm;
+    width: 25cm;
+    margin: 10px auto;
+    justify-content: center;
+    }
+    #botao {
+       background-color: rgb(255, 255, 255);
+       border-color: rgb(0, 0, 0);
+       border-radius:0,8cm;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       height: 4cm;
+       width: 4cm;
+       border-radius: 3ch;
+    }
+    #texto{
+       color: rgb(0, 0, 0);
+       text-align: center;
+       font-size: small;
+    }
+    
+    #tag{
+       text-align: center;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: white;
+    }
+    #secao{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 2,5cm;
+       width: 8cm;
+       background-color: paleturquoise;
+       border-radius: 3ch;
+       border-color: rgb(0, 0, 0);
+       margin: 10px auto;
+    }
+    
+    
+    
+    .text-box {
+       margin: 10px auto;
+       
+    }
+    
+    .btn:link,
+    .btn:visited {
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 15px 40px;
+       display: inline-block;
+       border-radius: 100px;
+       transition: all .2s;
+       position: absolute;
+    }
+    
+    .btn:hover {
+       transform: translateY(-3px);
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn:active {
+       transform: translateY(-1px);
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-white {
+       background-color: #fff;
+       color: #777;
+    }
+    
+    .btn::after {
+       content: "";
+       display: inline-block;
+       height: 100%;
+       width: 100%;
+       border-radius: 100px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: -1;
+       transition: all .4s;
+    }
+    
+    .btn-white::after {
+       background-color: #fff;
+    }
+    
+    .btn:hover::after {
+       transform: scaleX(1.4) scaleY(1.6);
+       opacity: 0;
+    }
+    
+    .btn-animated {
+       animation: moveInBottom 5s ease-out;
+       animation-fill-mode: backwards;
+    }
+    
+    @keyframes moveInBottom {
+       0% {
+           opacity: 0;
+           transform: translateY(30px);
+       }
+    
+       100% {
+           opacity: 1;
+           transform: translateY(0px);
+       }
+    }
