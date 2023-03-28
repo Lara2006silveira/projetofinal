@@ -1,6 +1,7 @@
 body{
-    background-image: url(/img/night2.jpg);
+    display: flex;
 }
+
 #formtit{
     color: ghostwhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
